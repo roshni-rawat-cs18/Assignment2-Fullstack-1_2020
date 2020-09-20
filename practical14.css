@@ -238,4 +238,22 @@ input[type='password']{
     box-shadow: 2px 2px 5px #3498db;
 
 }
+@media(max-width:720px){
+    header h1{
+        text-transform: uppercase;
+        color: red;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+@media(max-width:440px){
+    header h1{
+        text-transform: uppercase;
+        color: red;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
 
